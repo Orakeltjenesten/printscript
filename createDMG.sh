@@ -25,6 +25,8 @@ create_icon "ntnu_light_text"
 create_icon "ntnu_dark_text"
 platypus -P NTNU\ Print.platypus "./app/NTNU Print.app" -y
 
+xattr -cr "./app/NTNU Print.app"
+
 test -f Application-Installer.dmg && rm Application-Installer.dmg
 create-dmg \
 --volname "Utskrift NTNU" \
