@@ -8,7 +8,7 @@ DESCRIPTION="NTNU - Ricoh"
 ADDRESS="followprint.win.ntnu.no/ntnuprint-ricoh"   
 
 # Printer driver file
-DRIVER="/Library/Printers/PPDs/Contents/Resources/RICOH MP C6502.gz"              
+DRIVER="/Library/Printers/PPDs/Contents/Resources/RICOH MP C6502"
 
 sudo lpadmin -E -p "$NAME" \
                 -D "$DESCRIPTION" \
